@@ -84,13 +84,13 @@ public class SearchDDTest extends TestBase {
 		llPg.doLogout();
 	}
 	
-	/*@Test(dependsOnMethods= {"logoutTest"})
+	@AfterTest
 	public void verifyHomePageTileTest() {
 		lhmPg.verifyLinkedinHomePageTitle();
 		Assert.fail("TestCase failed");
 	}
 
-@Test(dependsOnMethods= {"logverifyHomePageTileTest"})
+/*@Test(dependsOnMethods= {"logverifyHomePageTileTest"})
 	public void verifyLinkedinLogoTest() {
 		lhmPg.verifyLinkedinLogo();
 		Assert.fail("TestCase failed");
