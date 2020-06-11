@@ -1,0 +1,2 @@
+cd D:\eclipseworkspaceAug2018\HybridFrameworkJune52020
+mvn clean install
